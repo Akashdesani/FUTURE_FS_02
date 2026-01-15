@@ -7,7 +7,6 @@ import {
   ShoppingCart,
   User,
   X,
-  Bot,
 } from 'lucide-react';
 import { useState } from 'react';
 
@@ -47,7 +46,6 @@ export function Header() {
                     className="flex items-center gap-2"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    <Bot className="h-6 w-6 text-primary" />
                     <span className="font-headline text-xl font-bold">
                       Urban Edge
                     </span>
@@ -84,7 +82,6 @@ export function Header() {
         {/* Desktop Logo & Nav */}
         <div className="hidden md:flex items-center gap-8">
           <Link href="/" className="flex items-center gap-2">
-            <Bot className="h-7 w-7 text-primary" />
             <span className="font-headline text-2xl font-bold">Urban Edge</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6">
