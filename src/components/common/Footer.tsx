@@ -42,9 +42,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2 pr-8">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <span className="font-headline text-2xl font-bold">
-                Urban Edge
-              </span>
+              
             </Link>
             <p className="text-muted-foreground mb-6">
               Define your edge with premium urban streetwear.
