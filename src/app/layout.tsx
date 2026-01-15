@@ -8,9 +8,6 @@ import { Footer } from '@/components/common/Footer';
 export const metadata: Metadata = {
   title: 'Urban Edge',
   description: 'Define Your Edge - Premium Streetwear T-Shirts',
-  icons: {
-    icon: '/favicon.ico',
-  },
 };
 
 export default function RootLayout({
