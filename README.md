@@ -46,7 +46,7 @@ The application simulates a real-world online shopping experience with product l
 ## ▶️ How to Run Locally
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/FUTURE_FS_02.git
+git clone https://github.com/Akashdesani/FUTURE_FS_02.git
 
 # Navigate to project folder
 cd FUTURE_FS_02
