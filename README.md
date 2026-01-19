@@ -1,88 +1,59 @@
-# Urban Edge — T-Shirt E-Commerce Website
+# 🛒 Mini E-Commerce Storefront
 
-Urban Edge is a modern and responsive **T-shirt e-commerce web application** developed as part of an **internship project**.  
-The project focuses on frontend development, clean UI design, and real-world website structure using modern web technologies.
+## Internship Program
+**Future Interns – Full Stack Web Development**  
+**Task 2: Develop a Mini E-Commerce Storefront**
 
 ---
 
 ## 📌 Project Overview
-
-- **Project Title:** Urban Edge
-- **Category:** E-Commerce Website
-- **Product Type:** T-Shirts Only
-- **Purpose:** Internship Project Submission
-- **Project Type:** Frontend Web Application
-
-This project demonstrates the practical implementation of frontend concepts such as responsive design, component-based architecture, and modern UI/UX principles.
+This project is a mini e-commerce web application developed as part of the **Future Interns Full Stack Web Development Internship**.  
+The application simulates a real-world online shopping experience with product listings, a shopping cart, and a checkout process.
 
 ---
 
-## 🎯 Objectives
-
-- To design a real-world e-commerce website layout
-- To apply modern frontend technologies in a practical project
-- To improve UI/UX design skills
-- To understand project structure and scalability
-- To create a professional internship-level project
-
----
-
-## ✨ Key Features
-
-- Modern and clean user interface
-- Responsive design for all devices
-- Dedicated T-shirt product layout
-- Structured and maintainable codebase
-- SEO-friendly and performance optimized
-- Internship-ready project structure
+## ✨ Features
+- 📦 Product listing with search and category filtering  
+- 🛒 Shopping cart with quantity control (add, remove, increase, decrease)  
+- 💰 Automatic total price calculation  
+- 🧾 Checkout simulation with form validation  
+- 💾 Cart data persistence using localStorage  
+- 📱 Fully responsive modern UI  
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Tech Stack
+**Frontend**
+- React.js  
+- Tailwind CSS  
 
-- **Framework:** Next.js
-- **Programming Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Build Tools:** PostCSS
-- **Version Control:** Git & GitHub
+**State Management**
+- React Context API + useReducer  
 
----
-
-## 📂 Project Structure
-
-Urban-Edge/
-│
-├── src/
-│ ├── app/
-│ ├── components/
-│ └── styles/
-│
-├── public/
-├── docs/
-├── package.json
-├── tailwind.config.ts
-├── postcss.config.js
-├── tsconfig.json
-└── README.md
-
+**Backend**
+- Not used (Frontend-only simulation)
 
 ---
 
-## 🚀 How to Run the Project
+---
 
-Step 1: Clone Repository
-git clone https://github.com/Akashdesani/Urban-Edge.git
+## 🚀 Live Demo
+🔗 **Live URL:**  
+(Add your deployed link here – Vercel / Netlify)
 
-Step 2: Install Dependencies
+---
+
+## ▶️ How to Run Locally
+```bash
+# Clone the repository
+git clone https://github.com/your-username/FUTURE_FS_02.git
+
+# Navigate to project folder
+cd FUTURE_FS_02
+
+# Install dependencies
 npm install
 
-Step 3: Run Development Server
+# Start development server
 npm run dev
-
-
-Open browser and visit:
-http://localhost:3000
-
-Live :- https://urban-edge-alpha.vercel.app/
-
 
